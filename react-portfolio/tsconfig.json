@@ -1,4 +1,17 @@
 {
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "jsx": "react-jsx", // For TypeScript 4.1 and later
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "strict": true
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

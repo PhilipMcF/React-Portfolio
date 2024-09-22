@@ -1,21 +1,20 @@
-import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.tsx'
-// import About from './pages/about.tsx'
-// import Contact from './pages/contact.tsx'
-// import Portfolio from './pages/portfolio.tsx'
-// import Resume from './pages/resume.tsx'
-// import Error from './pages/error.tsx'
+// import About from './pages/About.tsx'
+// import Contact from './pages/Contact.tsx'
+// import Portfolio from './pages/Portfolio.tsx'
+// import Resume from './pages/Resume.tsx'
+import Error from './pages/error'
 
-import './index.css'
+// import './index.css'   UNCOMMENT AND TEST HOW IT WORKS
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    // errorElement: <Error />
+    errorElement: <Error />,
     children:[
       {
         index: true,
