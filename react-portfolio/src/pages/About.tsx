@@ -4,9 +4,8 @@ import { BsPersonFill } from "react-icons/bs";
 export default function About () {
     return (
         <div>
-            <h1>About Me</h1>
+            <h1>About Me <BsPersonFill size={50} style={styles}/> </h1> 
             <br></br>
-            <BsPersonFill size={50} />
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Earum unde explicabo a magnam dolorem quia dolore quas eos
@@ -24,3 +23,8 @@ export default function About () {
         </div>
     )
 }
+
+const styles: React.CSSProperties = {
+    position: 'relative',
+    top: '10px',
+};
