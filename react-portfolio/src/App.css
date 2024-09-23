@@ -338,6 +338,11 @@ main {
   color: red;
 }
 
+.resumeList {
+  margin-left: 20px;
+  font-size: 1.5vw;
+}
+
 /* portfolio project images */
 /* Add portfolio project images here*/
 #firstproject {
