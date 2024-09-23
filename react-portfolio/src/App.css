@@ -307,15 +307,30 @@ main {
 /* portfolio project images */
 /* Add portfolio project images here*/
 #firstproject {
-    background-image: url(https://miro.medium.com/v2/resize:fit:820/1*y7ZgcnbxdF4aDgh-XaS1-Q.png);
+    background-image: url(https://collegeinfogeek.com/wp-content/uploads/2020/01/best-note-taking-apps-for-ipad-featured.jpg);
+    background-size: cover; 
+    background-position: center;
 }
 
 #secondproject{
-    background-image: url(https://t3.ftcdn.net/jpg/05/17/31/54/360_F_517315479_5APCsHqS3fFO0NAHewzDu9XS8Y2PhLBy.jpg);
+    background-image: url(https://images.theconversation.com/files/442675/original/file-20220126-17-1i0g402.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop);
 }
 
 #thirdproject{
-    background-image: url(https://t3.ftcdn.net/jpg/05/20/48/46/360_F_520484683_j4f2om7llvZD1aoL9HPZ2LmDeWWZoWK0.jpg);
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2018/12/Computer-icon-by-rudezstudio-5-580x386.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+#fourthproject{
+    background-image: url(https://www.scnsoft.com/_default_upload_bucket/employee-monitoring-software.png);
+    background-position: center;
+}
+
+#fifthproject{
+    background-image: url(https://www.shutterstock.com/image-photo/female-automotive-engineer-uses-digital-600nw-1570893184.jpg);
+    background-size: cover; 
+    background-position: center;
 }
 
 /* media queries */
