@@ -4,36 +4,22 @@ import { BsPersonFill } from "react-icons/bs";
 export default function About () {
     return (
         <div className="aboutD">
-            <h1>About Me <BsPersonFill size={50} style={styles}/> </h1> 
+            <h1> <BsPersonFill size={57} style={styles}/> About Me</h1> 
             <br></br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Earum unde explicabo a magnam dolorem quia dolore quas eos
-                culpa asperiores natus, perferendis temporibus ipsa velit tempore ex facilis, quo animi!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum perferendis aperiam cum,
-                quos laborum vero, distinctio ab a quia quae cupiditate dolorem ex veniam consectetur,
-                itaque architecto eum culpa dolores.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Earum unde explicabo a magnam dolorem quia dolore quas eos
-                culpa asperiores natus, perferendis temporibus ipsa velit tempore ex facilis, quo animi!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum perferendis aperiam cum,
-                quos laborum vero, distinctio ab a quia quae cupiditate dolorem ex veniam consectetur,
-                itaque architecto eum culpa dolores.
+                Welcome to my portfolio! I'm an aspiring software developer with a Bachelor's degree 
+                in Information Technology from Kennesaw State University. Currently, I'm further honing my skills through a 
+                bootcamp at the University of Minnesota, where I'm diving deeper into both front-end and back-end development. 
+                My passion for coding began in high school, where I was an active member of the web development team, and 
+                it has only grown since then.
             </p>
             <br></br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Earum unde explicabo a magnam dolorem quia dolore quas eos
-                culpa asperiores natus, perferendis temporibus ipsa velit tempore ex facilis, quo animi!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum perferendis aperiam cum,
-                quos laborum vero, distinctio ab a quia quae cupiditate dolorem ex veniam consectetur,
-                itaque architecto eum culpa dolores.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Earum unde explicabo a magnam dolorem quia dolore quas eos
-                culpa asperiores natus, perferendis temporibus ipsa velit tempore ex facilis, quo animi!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum perferendis aperiam cum,
-                quos laborum vero, distinctio ab a quia quae cupiditate dolorem ex veniam consectetur,
-                itaque architecto eum culpa dolores.
+                I have a solid foundation in HTML, CSS, JavaScript, and TypeScript, along with experience in React and PostgreSQL. 
+                My journey also includes dabbling in Java and Python, which has broadened my perspective on different programming 
+                languages. I thrive on solving complex problems and enjoy creating intuitive, user-friendly web applications. 
+                I'm excited to connect with others who share a passion for technology and innovation, and I look forward to bringing 
+                my unique blend of skills to impactful projects.
             </p>
         </div>
     )
@@ -41,5 +27,5 @@ export default function About () {
 
 const styles: React.CSSProperties = {
     position: 'relative',
-    top: '10px',
+    top: '7px',
 };
