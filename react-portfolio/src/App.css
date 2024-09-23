@@ -341,30 +341,30 @@ main {
 /* portfolio project images */
 /* Add portfolio project images here*/
 #firstproject {
-    background-image: url(https://collegeinfogeek.com/wp-content/uploads/2020/01/best-note-taking-apps-for-ipad-featured.jpg);
+    background-image: url(./assets/Project1.PNG);
     background-size: cover; 
-    background-position: center;
+    background-position: top;
 }
 
 #secondproject{
-    background-image: url(https://images.theconversation.com/files/442675/original/file-20220126-17-1i0g402.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop);
+    background-image: url(./assets/Project2.PNG);
 }
 
 #thirdproject{
-    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2018/12/Computer-icon-by-rudezstudio-5-580x386.jpg);
+    background-image: url(./assets/Project3.PNG);
     background-size: cover; 
-    background-position: center;
+    background-position: bottom;
 }
 
 #fourthproject{
-    background-image: url(https://www.scnsoft.com/_default_upload_bucket/employee-monitoring-software.png);
-    background-position: center;
+    background-image: url(./assets/Project4.PNG);
+    background-position: bottom;
 }
 
 #fifthproject{
-    background-image: url(https://www.shutterstock.com/image-photo/female-automotive-engineer-uses-digital-600nw-1570893184.jpg);
+    background-image: url(./assets/Project5.PNG);
     background-size: cover; 
-    background-position: center;
+    background-position: top;
 }
 
 /* media queries */
