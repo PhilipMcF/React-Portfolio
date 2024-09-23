@@ -26,7 +26,7 @@ function Footer() {
 // Styles for the footer and icons
 const styles = {
   footer: {
-    backgroundColor: '#333',
+    backgroundColor: 'rgba(49, 52, 61, 1)',
     padding: '10px 0',
     display: 'flex',
     justifyContent: 'center',
