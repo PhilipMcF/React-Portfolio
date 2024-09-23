@@ -4,11 +4,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.tsx'
 import About from './pages/About'
 import Contact from './pages/Contact'
-// import Portfolio from './pages/Portfolio.tsx'
+import Portfolio from './pages/Portfolio'
 // import Resume from './pages/Resume.tsx'
 import Error from './pages/Error'
 
-// import './index.css'   UNCOMMENT AND TEST HOW IT WORKS
+// WAS FROM PREVIOUS MODULE CHALLENGE #2 ; MESSUS UP THE STYLING
+// import './index.css' 
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />
+      },
+      {
+        path: '/Portfolio',
+        element: <Portfolio />
       },
     ],
   },
