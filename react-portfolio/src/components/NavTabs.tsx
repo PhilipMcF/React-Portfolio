@@ -18,14 +18,14 @@ function NavTabs(){
                         Portfolio
                         </Link>
                     </a>
-                    <a href="#contact-me">
-                        <Link to="/Contact" className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}>
-                        Contact Me
-                        </Link>
-                    </a>
                     <a href="#resume">
                         <Link to="/Resume" className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}>
                         Resume
+                        </Link>
+                    </a>
+                    <a href="#contact-me">
+                        <Link to="/Contact" className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}>
+                        Contact Me
                         </Link>
                     </a>
                 </ul>
