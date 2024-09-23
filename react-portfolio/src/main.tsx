@@ -5,7 +5,7 @@ import App from './App.tsx'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
-// import Resume from './pages/Resume.tsx'
+import Resume from './pages/Resume'
 import Error from './pages/Error'
 
 // created when making vite project i believe ; MESSUS UP THE STYLING ; USING APP.CSS INSTEAD AND OVERWRITING VITE CSS
@@ -26,12 +26,16 @@ const router = createBrowserRouter([
         element: <About />
       },
       {
-        path: '/Contact',
-        element: <Contact />
-      },
-      {
         path: '/Portfolio',
         element: <Portfolio />
+      },
+      {
+        path: '/Resume',
+        element: <Resume />
+      },
+      {
+        path: '/Contact',
+        element: <Contact />
       },
     ],
   },
