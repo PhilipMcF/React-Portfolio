@@ -31,6 +31,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    marginTop: 'auto',
   },
   iconContainer: {
     display: 'flex',
