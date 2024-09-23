@@ -8,26 +8,18 @@ function NavTabs(){
             <h1>Philip McFarland</h1>
             <nav>
                 <ul>
-                    <a href="#about-me">
-                        <Link to="/" className={currentPage === "/" ? "nav-link active" : "nav-link"}>
+                    <Link to="/" className={currentPage === "/" ? "nav-link active" : "nav-link"}>
                         About Me
-                        </Link>
-                    </a>
-                    <a href="#porfolio">
-                        <Link to="/Portfolio" className={currentPage === "/Portfolio" ? "nav-link active" : "nav-link"}>
+                    </Link>
+                    <Link to="/Portfolio" className={currentPage === "/Portfolio" ? "nav-link active" : "nav-link"}>
                         Portfolio
-                        </Link>
-                    </a>
-                    <a href="#resume">
-                        <Link to="/Resume" className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}>
+                    </Link>
+                    <Link to="/Resume" className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}>
                         Resume
-                        </Link>
-                    </a>
-                    <a href="#contact-me">
-                        <Link to="/Contact" className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}>
+                    </Link>
+                    <Link to="/Contact" className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}>
                         Contact Me
-                        </Link>
-                    </a>
+                    </Link>
                 </ul>
             </nav>
         </header>
