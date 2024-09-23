@@ -236,7 +236,8 @@ main {
 }
 
 .flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 30px rgba(54, 244, 250, 0.9), 0 0 60px rgba(54, 244, 250, 0.7);
 }
 
 .flex-item div {
@@ -252,6 +253,11 @@ main {
   padding: 5px 10px;
   line-height: 1.2;
   display: inline;
+}
+
+.flex-item:hover h3 {
+  transition: box-shadow 0.5s ease-in-out;
+  box-shadow: 0 0 30px rgba(54, 244, 250, 0.9), 0 0 60px rgba(54, 244, 250, 0.7);
 }
 
 .contact address {
