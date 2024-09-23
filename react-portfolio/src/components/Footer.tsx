@@ -17,7 +17,7 @@ function Footer() {
     },
     iconContainer: {
       display: 'flex',
-      gap: '20px',
+      gap: '40px',
     },
     icon: {
       color: '#fff',
@@ -41,12 +41,12 @@ function Footer() {
           onMouseEnter={() => setHoveredIcon('github')} // Set hovered icon
           onMouseLeave={() => setHoveredIcon(null)} // Reset on leave
         >
-          <FaGithub size={30} />
+          <FaGithub size={40} />
         </a>
 
         {/* LinkedIn Icon */}
         <a
-          href="https://linkedin.com/in/philip"
+          href="https://www.linkedin.com/in/philip-mcfarland-aa3b4a191/"
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -56,7 +56,7 @@ function Footer() {
           onMouseEnter={() => setHoveredIcon('linkedin')} // Set hovered icon
           onMouseLeave={() => setHoveredIcon(null)} // Reset on leave
         >
-          <FaLinkedin size={30} />
+          <FaLinkedin size={40} />
         </a>
 
         {/* Twitter Icon */}
@@ -71,7 +71,7 @@ function Footer() {
           onMouseEnter={() => setHoveredIcon('twitter')} // Set hovered icon
           onMouseLeave={() => setHoveredIcon(null)} // Reset on leave
         >
-          <FaTwitter size={30} />
+          <FaTwitter size={40} />
         </a>
       </div>
     </footer>
