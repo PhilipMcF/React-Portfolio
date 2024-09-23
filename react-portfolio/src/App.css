@@ -280,6 +280,26 @@ main {
   font-size: 1.2rem;
 }
 
+.contactS {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.input-field {
+  width: 300px;
+  padding: 10px;
+}
+
+.textarea-field {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+}
+
+.error {
+  color: red;
+}
+
 /* portfolio project images */
 /* Add portfolio project images here*/
 #firstproject {
