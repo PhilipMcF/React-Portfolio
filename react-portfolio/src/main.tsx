@@ -8,7 +8,7 @@ import Portfolio from './pages/Portfolio'
 // import Resume from './pages/Resume.tsx'
 import Error from './pages/Error'
 
-// WAS FROM PREVIOUS MODULE CHALLENGE #2 ; MESSUS UP THE STYLING
+// created when making vite project i believe ; MESSUS UP THE STYLING ; USING APP.CSS INSTEAD AND OVERWRITING VITE CSS
 // import './index.css' 
 
 const router = createBrowserRouter([
