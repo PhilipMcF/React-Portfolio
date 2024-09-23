@@ -42,7 +42,11 @@
   color: #888;
 } */
 
+
+
+
 /* CSS THAT CAME FROM OLD MODULE */
+
 * {
   box-sizing: border-box;
 }
@@ -54,6 +58,13 @@
   --tertiary: rgba(49, 52, 61, 1);
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
+}
+
+/* Flex styling for entire page content; mainly used to keep footer at the very bottom. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container fills the viewport */
 }
 
 body {
