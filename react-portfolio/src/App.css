@@ -271,6 +271,15 @@ main {
   color: var(--secondary);
 }
 
+.aboutD {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.aboutD p {
+  font-size: 1.2rem;
+}
+
 /* portfolio project images */
 /* Add portfolio project images here*/
 #firstproject {
