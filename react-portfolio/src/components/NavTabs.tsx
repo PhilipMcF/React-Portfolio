@@ -15,7 +15,7 @@ function NavTabs(){
                     </a>
                     <a href="#porfolio">
                         <Link to="/Portfolio" className={currentPage === "/Portfolio" ? "nav-link active" : "nav-link"}>
-                        Work
+                        Portfolio
                         </Link>
                     </a>
                     <a href="#contact-me">
