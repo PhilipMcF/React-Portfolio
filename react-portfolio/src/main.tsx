@@ -2,11 +2,11 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.tsx'
-import About from './pages/about.tsx'
-// import Contact from './pages/Contact.tsx'
+import About from './pages/About'
+import Contact from './pages/Contact'
 // import Portfolio from './pages/Portfolio.tsx'
 // import Resume from './pages/Resume.tsx'
-import Error from './pages/error'
+import Error from './pages/Error'
 
 // import './index.css'   UNCOMMENT AND TEST HOW IT WORKS
 
@@ -23,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: '/About',
         element: <About />
+      },
+      {
+        path: '/Contact',
+        element: <Contact />
       },
     ],
   },
