@@ -280,6 +280,10 @@ main {
   padding-right: 100px;
 }
 
+.aboutD h1 {
+  font-size: 4vw;
+}
+
 .aboutD p {
   font-size: 1.2rem;
 }
