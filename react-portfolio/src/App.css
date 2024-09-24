@@ -137,6 +137,12 @@ nav a:last-child {
   margin-right: 0;
 }
 
+.nav-link.active {
+  background-size: 100% 100%;
+  color: var(--primary); /* Optional: Change color when active */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.7); /* Soft glow effect around the outline */
+}
+
 main {
   margin-top: 20px;
   margin-bottom: 45px;
