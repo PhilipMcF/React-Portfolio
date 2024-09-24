@@ -1,5 +1,5 @@
 import React from 'react';
-import PageTransition from '../components/PageTransition'; // Adjust the path if necessary
+import PageTransition from '../components/PageTransition'; 
 
 const Resume: React.FC = () => {
     return (

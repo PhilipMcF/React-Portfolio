@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
-import PageTransition from '../components/PageTransition'; // Adjust the path if necessary
+import PageTransition from '../components/PageTransition'; 
 
 const Contact: React.FC = () => {
     const [formState, setFormState] = useState({

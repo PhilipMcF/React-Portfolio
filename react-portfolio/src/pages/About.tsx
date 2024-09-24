@@ -1,6 +1,6 @@
 import React from "react";
 import { BsPersonFill } from "react-icons/bs";
-import PageTransition from '../components/PageTransition'; // Adjust the path if necessary
+import PageTransition from '../components/PageTransition'; 
 
 const About: React.FC = () => {
     return (
